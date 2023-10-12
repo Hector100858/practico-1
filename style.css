@@ -27,3 +27,16 @@ img{
     background-color: #f8f4f4; /* Cambia el color según tus necesidades */
   }
   
+.imgHeader{
+  width: 160px;
+  display: inline;
+}
+
+img{
+  width: 600px;
+}
+.container{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px;
+}
