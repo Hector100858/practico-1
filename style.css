@@ -1,8 +1,13 @@
 .imgHeader{
   width: 160px;
-  
+  display: inline;
 }
 
 img{
-  width: 460px;
+  width: 600px;
+}
+.container{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px;
 }

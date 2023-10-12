@@ -10,9 +10,11 @@
     <div class="container">
         <nav>
             <a href="index.html">Inicio</a>
+            <a href="cv.html">Curriculum Vitae</a>
+            <a href="unidad1.html"> Unidad 1</a>
         </nav>
-        <header>
-            <h1>GIT: Comandos basicos</h1>
+        <header class="header">
+            <h1 class="titleHeader">GIT: Comandos basicos</h1>
             <img class="imgHeader" src="https://nodd3r.com/media/blog/Portadas_blog_21.png" alt="git logo">
         </header>
         <section>
@@ -35,16 +37,24 @@
             <p>Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden en local y no se incluirán en el siguiente commit (a menos que cambiemos la configuración).</p>
             <p>Necesitamos usar el comando git add para incluir los cambios del o de los archivos en tu siguiente commit.</p>
             <img src="https://www.freecodecamp.org/espanol/news/content/images/size/w1000/2020/12/git-add.png" alt="">
+            <p><strong>Importante: El comando git add no cambia el repositorio y los cambios que no han sido guardados hasta que no utilicemos el comando de confirmación git commit.</strong></p>
         </section>
         <section>
-            <h2></h2>
-            <img src="#" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate quaerat facere praesentium excepturi maiores minima tempora saepe. Deserunt debitis quidem autem quo vel ut provident suscipit eos. Culpa fugit totam numquam eligendi, ut reiciendis sed deserunt repellendus saepe dolorum dolorem a itaque tempore ipsa reprehenderit, commodi vero excepturi, alias consequuntur rerum deleniti inventore nisi vel placeat. Odio, libero nihil.</p>
+            <h2>Git commit</h2>
+            <p>Este sea quizás el comando más utilizado de Git. Una vez que se llega a cierto punto en el desarrollo, queremos guardar nuestros cambios (quizás después de una tarea o asunto específico).</p>
+            <p>Git commit es como establecer un punto de control en el proceso de desarrollo al cual puedes volver más tarde si es necesario.</p>
+            <p>También necesitamos escribir un mensaje corto para explicar qué hemos desarrollado o modificado en el código fuente.</p>
+            <p><strong>Importante: Git commit guarda tus cambios únicamente en local.</strong></p>
         </section>
         <section>
-            <h2></h2>
+            <h2>Git push</h2>
+            <p>Después de haber confirmado tus cambios, el siguiente paso que quieres dar es enviar tus cambios al servidor remoto. Git push envía tus commits al repositorio remoto.</p>
+            <p><strong>Importante: Git push solamente carga los cambios que han sido confirmados. </strong></p>
+        </section>
+        <section>
+            <h2>Git pull</h2>
             <img src="#" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate quaerat facere praesentium excepturi maiores minima tempora saepe. Deserunt debitis quidem autem quo vel ut provident suscipit eos. Culpa fugit totam numquam eligendi, ut reiciendis sed deserunt repellendus saepe dolorum dolorem a itaque tempore ipsa reprehenderit, commodi vero excepturi, alias consequuntur rerum deleniti inventore nisi vel placeat. Odio, libero nihil.</p>
+            <p>El comando <strong>git pull</strong> se utiliza para recibir actualizaciones del repositorio remoto. Este comando es una combinación del <strong>git fetch</strong> y del <strong>git merge</strong> lo cual significa que cundo usemos el git pull recogeremos actualizaciones del repositorio remoto (git fetch) e inmediatamente aplicamos estos últimos cambios en local (git merge).</p>
         </section>
     </div>
     
