@@ -1,0 +1,29 @@
+img{
+    width: 400px;
+    padding-left:  150px;
+    padding-right: 50px;
+    margin-left:   30px;
+    margin-right:  30px;
+    display: inline-block;
+}
+.titu {
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-left:   30px;
+    margin-right:  30px;
+    border: 2px solid rgb(120, 146, 187);
+    background-color: #618eaa;
+    
+  }
+  .RolTec {
+    width: 40%;
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-left:   30px;
+    margin-right:  30px;
+    display: inline-block;
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+    margin-right: 2%; /* Ajusta el espacio entre bloques según tus necesidades */
+    background-color: #f8f4f4; /* Cambia el color según tus necesidades */
+  }
+  
