@@ -1,41 +1,81 @@
-img{
-    width: 400px;
-    padding-left:  150px;
-    padding-right: 50px;
-    margin-left:   30px;
-    margin-right:  30px;
-    display: inline-block;
-}
-.titu {
-    padding-left:  50px;
-    padding-right: 50px;
-    margin-left:   30px;
-    margin-right:  30px;
-    border: 2px solid rgb(120, 146, 187);
-    background-color: #618eaa;
-    
-  }
-  .RolTec {
-    width: 40%;
-    padding-left:  50px;
-    padding-right: 50px;
-    margin-left:   30px;
-    margin-right:  30px;
-    display: inline-block;
-    width: 48%; /* Ajusta el ancho según tus necesidades */
-    margin-right: 2%; /* Ajusta el espacio entre bloques según tus necesidades */
-    background-color: #f8f4f4; /* Cambia el color según tus necesidades */
-  }
+img {
+  display: flex;  /* Activa el modo flexbox */
+  width: 520px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
   
-.imgHeader{
+}
+
+.contene {
+  display: flex;
+}
+
+.linea {
+  border-bottom: 10px solid; /* Anchura de la línea y estilo de línea */
+  flex-grow: 1; /* La línea ocupará todo el espacio disponible */
+  margin: 0 10px; /* Espacio entre las rayas */
+}
+
+.linea1 {
+  border-color: rgb(66, 52, 173); /* Color de la primera línea */
+}
+
+.linea2 {
+  border-color: green; /* Color de la segunda línea */
+}
+
+.linea3 {
+  border-color: rgb(11, 11, 27); /* Color de la tercera línea */
+}
+
+.linea-blanco {
+  border-top: 10px solid transparent; /* Grosor de la línea y color transparente */
+  width: 100%; /* Ancho de la línea */
+}
+
+.titu {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 2px solid rgb(120, 146, 187);
+  background-color: #618eaa;
+  color: #f6f1f1;  /* Código hexadecimal para un tono de blanco */
+
+}
+.columna {
+  display: flex;  /* Activa el modo flexbox */
+} 
+
+.RolTec {
+  display: flex;  /* Activa el modo flexbox */
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  width: 48%;
+  /* Ajusta el ancho según tus necesidades */
+  margin-right: 2%;
+  /* Ajusta el espacio entre bloques según tus necesidades */
+  background-color: #f8f4f4;
+  /* Cambia el color según tus necesidades */
+  font-size: 25px;
+  /* Tamaño del texto en píxeles */
+}
+
+.imgHeader {
+
   width: 160px;
   display: inline;
 }
 
-img{
-  width: 600px;
-}
-.container{
+
+.container {
   margin-left: 60px;
   margin-right: 60px;
   padding: 20px;
