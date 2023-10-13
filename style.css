@@ -86,3 +86,31 @@ a{
 .titleIndex{
   text-align: center;
 }
+.wrapper, .main{
+  border: 1px solid #618eaa; 
+}
+.fotocv{
+  width: 200px;
+  
+}
+.wrapper{
+  background-color: #618eaa;
+}
+.main{
+  background-color:#f8f4f4;
+}
+.lista, .datospersonales, .footer{
+  display: flex;
+  align-content: space-around;
+
+}
+.peliculas{
+  margin-left: 20px;
+}
+.datos{
+  width: 50%;
+}
+.derechos{
+  text-align: center;
+  padding-bottom: 60px;
+}
